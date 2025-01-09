@@ -1,0 +1,114 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Blank_A4" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ec629120-b56d-4cb4-9057-29ac69837061">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+	<query language="SQL"><![CDATA[SELECT * FROM chef]]></query>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="chef"/>
+	</field>
+	<field name="name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="name"/>
+		<property name="com.jaspersoft.studio.field.label" value="name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="chef"/>
+	</field>
+	<field name="age" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="age"/>
+		<property name="com.jaspersoft.studio.field.label" value="age"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="chef"/>
+	</field>
+	<field name="address" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="address"/>
+		<property name="com.jaspersoft.studio.field.label" value="address"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="chef"/>
+	</field>
+	<field name="mobile" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="mobile"/>
+		<property name="com.jaspersoft.studio.field.label" value="mobile"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="chef"/>
+	</field>
+	<field name="email" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="email"/>
+		<property name="com.jaspersoft.studio.field.label" value="email"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="chef"/>
+	</field>
+	<field name="time" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="time"/>
+		<property name="com.jaspersoft.studio.field.label" value="time"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="chef"/>
+	</field>
+	<field name="fee" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="fee"/>
+		<property name="com.jaspersoft.studio.field.label" value="fee"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="chef"/>
+	</field>
+	<background splitType="Stretch"/>
+	<title height="85" splitType="Stretch">
+		<element kind="staticText" uuid="5227d9c5-46e7-453f-9fe2-ea987fb8813d" x="62" y="0" width="430" height="45" fontSize="30.0">
+			<text><![CDATA[ESCOFFIER CULINARY ARTS]]></text>
+		</element>
+		<element kind="staticText" uuid="6fbcaf7e-2d3a-454b-8ecb-986fb2a3b9c2" x="207" y="40" width="140" height="30" fontSize="20.0">
+			<text><![CDATA[Student Details]]></text>
+		</element>
+	</title>
+	<pageHeader height="35" splitType="Stretch"/>
+	<columnHeader height="45" splitType="Stretch">
+		<element kind="staticText" uuid="08d312c9-6e7a-40f1-a817-a1e941a8a414" x="0" y="-1" width="28" height="42" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[ID]]></text>
+		</element>
+		<element kind="staticText" uuid="070cd6f8-feed-468a-9209-e01acea00ee8" x="40" y="-1" width="50" height="41" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Name]]></text>
+		</element>
+		<element kind="staticText" uuid="466b16e1-4d0e-4745-92ed-8cd9ccc7a70b" x="100" y="-1" width="30" height="41" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Age]]></text>
+		</element>
+		<element kind="staticText" uuid="b6d5964e-9b95-42d2-a5fa-e5efca01da27" x="140" y="-1" width="80" height="43" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Address]]></text>
+		</element>
+		<element kind="staticText" uuid="700c2944-e5ed-4988-86fe-c487ee767a96" x="230" y="-1" width="60" height="41" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Mobile]]></text>
+		</element>
+		<element kind="staticText" uuid="f0316841-f404-42df-8545-6e27da76be62" x="304" y="0" width="116" height="43" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Email]]></text>
+		</element>
+		<element kind="staticText" uuid="747917f8-c9cc-45df-838e-3372826352d5" x="430" y="-1" width="62" height="45" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Time]]></text>
+		</element>
+		<element kind="staticText" uuid="b466fd3e-927e-4793-8fc9-f46ab2e23f82" x="492" y="0" width="58" height="45" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Fee]]></text>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="50" splitType="Stretch">
+			<element kind="textField" uuid="10ae0f8e-d9f7-43c2-93e6-e2bedc6c43ff" x="3" y="10" width="25" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{id}]]></expression>
+			</element>
+			<element kind="textField" uuid="d316c6ff-0bbe-46ee-9d69-27c0ad2761e2" x="40" y="10" width="50" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{name}]]></expression>
+			</element>
+			<element kind="textField" uuid="907269a2-a5ff-4808-990b-5f52c57f9007" x="100" y="10" width="30" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{age}]]></expression>
+			</element>
+			<element kind="textField" uuid="131ac686-8da8-47b5-b4b5-4ac4883738c6" x="140" y="10" width="80" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{address}]]></expression>
+			</element>
+			<element kind="textField" uuid="672cf1f1-0092-438a-97cc-f8db65ea06ff" x="230" y="10" width="60" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{mobile}]]></expression>
+			</element>
+			<element kind="textField" uuid="38315f4e-48fe-44a7-afc6-c01cf251bfc8" x="304" y="10" width="116" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{email}]]></expression>
+			</element>
+			<element kind="textField" uuid="1b840637-973e-490f-918d-060204f4c26f" x="430" y="10" width="62" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{time}]]></expression>
+			</element>
+			<element kind="textField" uuid="8e07d9b9-95bd-4d85-82a7-05c8dc9c2431" x="492" y="10" width="52" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{fee}]]></expression>
+			</element>
+			<element kind="line" uuid="1bcb7c97-81ff-4e2f-ada9-fad889a57235" x="1" y="-1" width="544" height="2"/>
+		</band>
+	</detail>
+	<columnFooter height="45" splitType="Stretch"/>
+	<pageFooter height="54" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>
